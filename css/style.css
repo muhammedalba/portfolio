@@ -389,10 +389,13 @@ position: relative;
     padding: 25px 0;
     justify-content: space-around;
     margin: 3rem 0;
+
 } 
 .degree img{
     width: 300px;
     border-radius: 10px;
+    flex: auto;
+    padding: 0 20px;
 
      
   }
