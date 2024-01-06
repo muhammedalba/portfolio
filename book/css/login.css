@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+*{  
+        font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --text-color:#0a0a0a;
+  --span-color : #fca311; 
+  --background-color : rgb(238, 238, 238); 
+  --background-card : #fff; 
+  --b-g-form:white;
+}
+
+body{
+  background:url("https://rowadbusiness.com/post/wp-content/uploads/pexels-photo-2177482.jpeg") ;
+    background-size: 100% 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+#forminputs{
+    backdrop-filter: blur(80px);
+    position: relative;
+    padding: 25px  ;
+   margin: 100px auto;
+    border: 1px var(--span-color) solid;
+    border-radius: 10px;
+    width: 40%;
+
+  
+
+
+}
+#forminputs  h3{
+    padding: 10px 0;
+    text-align: center;
+    color: var(--text-color);
+}
+#forminputs input {
+    
+
+    padding-right: 10px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: #eee;
+    color: #373042;
+   outline-color: var(--span-color);
+    border: none;
+    height: 100%;
+    
+
+
+
+
+   }
+   #forminputs input:focus{
+     outline: 1px solid var(--span-color);
+   }
+#forminputs #icon{
+    position: absolute;
+    color: var(--span-color);
+    top: 10px;
+    left: 10px;
+}
+
+#forminputs .app{
+    width: 80%;
+    height: 35px;
+    position: relative;
+ }
+ #forminputs .submetbtn{
+    width: 25%;
+    background-color: var(--span-color);
+    
+}
+#forminputs label {
+    margin: 15px 0px 5px 0px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: var(--text-color);
+}
+ 
+
+.cek {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+ 
+.cek a {
+    text-decoration: none;
+    color:var(--text-color);
+
+}
+.cek  input {
+    width: 15px!important;
+    height: 15px !important;
+    margin: 5px;
+
+}
+
+@media screen and (max-width : 970px) {
+
+}

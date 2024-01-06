@@ -1,0 +1,412 @@
+*{
+    text-transform:uppercase ;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+#nav {
+    padding-top: 15px;
+    padding-right: 10px;
+    /* width: 100%; */
+    background-repeat: repeat-y;
+    background-size: 100% ;
+    background-image: url(../img/0.png);
+}
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav2 a {
+    text-decoration: none;
+    color: unset;
+ }
+#logo {
+    width: 2rem;
+    /* margin-left: 35px; */
+}
+
+#h4nav  {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+   }
+   /* nav2 */
+#nav2 {
+     
+     display: flex;
+     flex-direction: row-reverse;
+
+   }
+  .list{
+    display: flex;
+  } 
+  .list li {
+    margin-left: 10px;
+    transition: 0.5s;
+  }
+#nav2 a{
+    text-decoration: none;
+    color: black;
+   transition: 0.5s;
+   }
+   #nav2 .list li a:hover{
+    color: #b81616;
+    
+   }
+   #nav2 .list li:hover{
+    transform: scale(1.1);
+   }
+   #nav2 .list li:active{
+  transform: translateY(5px);
+   }
+  
+   /* nV3 */
+   #nav3{
+    margin-top: 25px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#border  {
+    margin: 45px 0 ;
+    border: 3px black dashed;
+    width: 415px;
+    padding: 4px 0 0px 10px;
+    height: 40px;
+    font-weight: 500;
+}
+#nav3 h1 {
+    font-weight: 900;
+    padding-left: 40px;
+    font-size: 100px;
+    color:  #3b1b05;
+}
+#nav3 h3 {
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: -15px;
+    color:  #3b1b05;
+}  
+ #nav3 div img {
+        width: 100%;
+    } 
+
+/* 2 */
+#img {
+    margin-top: 50px;
+    
+}
+#img img {
+width: 100%;
+border-radius: 10px;
+/* border-radius: 40px; */
+}
+#img6 {
+    margin-top: 25px;
+}
+/* 3 */
+#contain {
+    text-align: center;
+    margin: 50px auto;
+}
+#contain button {
+    background-color: #ffc44a;
+    height: 40px;
+    padding: 5px;
+    width: 200px;
+    border: none;
+    
+}
+#contain h3 {
+    font-weight: 900;
+    font-size: 50px;
+    color: #3b1b05;
+    margin: 25px 0;
+}
+#contain p {
+    text-align: center;
+}
+
+
+/* 4 */
+#cart {
+    text-align: center;
+    display: flex;
+}
+#cart img {
+    border-radius: 10%;
+    height: 200px;
+    width: 100%;
+}
+#cart h3 {    
+    font-weight: 700;
+    font-size: 25px;
+    color: #3b1b05;
+    margin: 25px 0 10px 0;
+
+}
+
+#cart button {
+    background-color: red;
+    height: 40px;
+    padding: 5px;
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+ button:active{
+    transform: translateY(5px);
+}
+@media screen and (max-width:850px) {
+    #cart h3 {  
+        font-size: 18px;
+     } 
+     
+        
+        #cart {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #cart div   {
+        padding: 35px 0;
+     }
+}
+/* 5 */
+#cont {
+    margin-top: 125px;
+   
+    
+}
+#cont1  {
+    box-shadow: 60px 20px 20px 0px #d2cbcba3, 0px 20px 20px 15px #d2cbcba3 ;
+    padding: 10px;
+}
+.back div {
+    padding: 6px;
+    width: 100%;
+    height: 300px;
+    
+}
+.back h3 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #3b1b05;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+ .back h6 {
+    color: #000;
+    text-align: left;
+}
+.back #pag-Slid {
+    text-align: left;
+    color: #000;
+  
+}
+
+#cont img {
+    height: 300px;
+    width: 100%;
+}
+
+
+    /* 6 */
+   .form{
+    display: flex;
+
+   } 
+#tabl {
+        text-align: center;
+    padding-top: 100px;
+    background-color: #ececec3b;
+    }
+ #inpu {
+        /* width: 50%; */
+        padding-left: 10px;
+    }
+#tabl  input {
+         width: 100%;
+        margin: 20px 0 0 0;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        border: 1px solid #b5aeae;
+    }
+ #tabl form {width: 100%;}
+ #tabl table { width: 100%;}
+#tabl h6 {
+        color: #3b1b05;
+    }
+#tabl h3 { 
+        font-weight: 900;
+        font-size: 40px;
+        color: #3b1b05;
+        margin-bottom: 30px;
+    }
+#tabl img {
+        width: 100%;
+        height: 450px;
+    }
+#tabl button {
+        background-color: red;
+        height: 40px;
+        padding: 5px;
+        width: 100%;
+        border: none;
+        color: white;
+        margin-top: 20px;
+        border-radius: 5px;
+        text-transform:uppercase ;
+        font-weight: 900;
+    }
+    /* fot */
+#fot1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+       
+    }
+#fot {
+       background-image: url(../img/13.png);
+        background-size: 100% 100%;
+        height: 100vh;
+        padding: 20px;
+         color: white;
+    }
+#emg-0{
+        
+        border-radius: 36%;
+        
+    }
+#fotext {
+    width: auto;
+
+    }
+#fotext h3   {
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 10px;
+    }
+    /* 2 */
+#fot2{
+        display: flex;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+  
+#fot2-2{
+    flex-direction: column;
+    display: flex;
+    
+
+    }
+ #fot-span{
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+ }
+ #fot-span h5 {
+    padding-left: 10px;
+    
+ }
+
+
+/* 3 */
+#fotimg3 {
+
+    border-radius: 25px;
+}
+#foter-p {
+   
+    font-size: 10px;
+}
+.foter{
+    padding-top:45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width:955px) {
+    #fot2{
+        flex-wrap: wrap;  
+    }
+    #fot2-2{
+        padding-top: 2cqh;
+    }
+    #fot{
+        height:auto;
+    }
+}
+/*  */
+@media screen and (max-width:580px) {
+    #nav1 {
+        flex-wrap: wrap;
+      }
+      #nav2{
+        flex-direction: row;
+      }
+      .list{
+        flex-wrap: wrap;
+            
+      }
+      /* 3 */
+    #nav3  #border {
+        margin: 0;
+        height: auto;
+        width: auto;
+      }
+      #nav3 div h1 {
+        margin: 0;
+        font-size: 50px;
+      }
+      /* 2 */
+      #img,
+     #img .img2{
+        margin-top: 50px;
+      } 
+      /* 3 */
+      #contain h3 {
+        font-size: 30px;
+    }  
+    /* 6 */
+    #tabl .row #none{
+        display: none;
+
+    }
+    #tabl .row{
+        width: 100%;
+        padding: 20px;
+    }
+    #tabl button{
+        font-weight: 100;
+    }
+    }
+    #cont1{
+        box-shadow: none;
+    }
+    /* foter */
+    /* 1 */
+    #fotext h3 {
+        font-size: 30px;
+    }
+    #fot{
+        height:auto;
+        margin-top: 45px;
+    }
+   

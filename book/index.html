@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" media="all"  href="./css/style.css">
+  <!-- boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!--  -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>home</title>
+
+
+
+
+
+</head>
+
+<body>
+  <section class="section1 container-fluid ">
+
+    <!-- nav -->
+    <header class="">
+      <nav class=" p-2 w-100 d-flex justify-content-between align-items-center">
+
+        <h4 class="position-relative ">books<span>library</span>
+          <div class="test"></div>
+        </h4>
+        <div id="modes ">
+
+          <span id="lightMode">
+            <i class="fa-regular fa-sun"></i>
+          </span>
+
+          <span id="darkMode">
+            <i class="fa-regular fa-moon"></i>
+          </span>
+
+        </div>
+        
+
+        <ul id="list">
+          <li class="me-2  w-100 position-relative active"><a href="#"><i class="fa-solid fa-house"></i>home</a></li>
+
+          <li id="CartClick" class="me-2 w-100 position-relative"><a><i class="fa-solid fa-cart-shopping"></i><span
+                id="cartLingth"></span></i>cart </a></li>
+          <li id="login" class="me-2 w-100"><a href="/book/login.html"><i class="fa-solid fa-user"></i>login</a></li>
+          <li id="helo" class="me-2 w-100">helo<span id="username"></span></a></li>
+          <li id="out" class="me-2 w-100"><a href="/book/login.html"><i
+                class="fa-solid fa-arrow-right-from-bracket"></i>out</a></li>
+        </ul>
+
+        <button id="bar" class="bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+    <!-- serch -->
+    <form class="form" class=" col-6  mt-5" role="search">
+      <div id="inputForm" class="d-flex">
+        <input id="search" class="form-serch me-2" type="search" placeholder="Search" aria-label="aria-label">
+        <button id="btnSerch" class=" " type="button">Search</button>
+      </div>
+          <p>book margting Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum voluptatum aut deleniti sunt
+      magnam accusamus facilis odit, totam labore unde quod odio quaerat nulla? Fugit beatae dicta voluptatibus maiores?
+    </p>
+    </form>
+
+  </section>
+  <div style="transform: scale(0);" id="table" class="">
+    <span id="exit"><i class="fa-solid fa-xmark"></i></span>
+    <h2>my<span>cart</span></h2>
+    <table class="p-5">
+      <thead>
+        <tr>
+          <th scope="col"><span>count</span></th>
+          <th scope="col"><span>image</span></th>
+          <th scope="col"><span>title</span></th>
+          <th scope="col"><span>price</span></th>
+          <th scope="col"><span>action</span></th>
+
+
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+    <div class="d-flex justify-content-evenly  align-items-center p-3">
+      <p>totel<span id="total"></span></p>
+      <button id="btnSerch">buy now</button>
+    </div>
+  </div>
+  <!-- slide -->
+  <section class="section2">
+
+    <!-- sectio3 -->
+  </section>
+  <section id="section3">
+    <h2 id="AvailableBooks"></h2>
+    <div id="filterBook" class="container my-5 py-3">
+    </div>
+    <h2>Best selling books</h2>
+    <div id="bookshadwo" class="container">
+    </div>
+  </section>
+  <footer id="footer">
+    <h3>contact info : </h3>
+    <ul id="footerlist">
+      <li class=""><i class="fa-solid fa-phone"></i>: 0090555544448</li>
+      <li class=""><i class="fa-solid fa-phone"></i>: 0120235489498</li>
+      <li class=""><i class="fa-solid fa-envelope"></i>: wwww.Bookslibrary@gmail.com</li>
+    </ul>
+  </footer>
+
+  <!-- BOOstrsp -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script src="./js/javascript.js"></script>
+</body>
+
+</html>
